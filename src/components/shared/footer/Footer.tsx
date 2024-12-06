@@ -1,10 +1,10 @@
 import React from "react";
 import { FaGithub } from "react-icons/fa6";
-import { IoLogoLinkedin } from "react-icons/io5";
+
 import { AiFillTwitterCircle } from "react-icons/ai";
 // import { SiFacebook } from "react-icons/si";
 import { RiFacebookCircleFill } from "react-icons/ri";
-import { TiSocialLinkedinCircular } from "react-icons/ti";
+
 import Image from "next/image";
 import Link from "next/link";
 const linkedin = '/images/footer/linkedin.png'

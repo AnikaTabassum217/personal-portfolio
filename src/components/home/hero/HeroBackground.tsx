@@ -1,8 +1,8 @@
 'use client'
 import { TextGenerateEffect } from "@/components/ui/text-generate-effect";
-import Image from "next/image";
+
 import React from "react";
-import { motion } from "framer-motion";
+
 import MotionBackground from "@/components/shared/motion-background/MotionBackground";
 
 const img = '/images/hero/hero.jpg'
