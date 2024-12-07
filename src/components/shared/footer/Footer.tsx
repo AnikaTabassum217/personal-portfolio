@@ -11,13 +11,13 @@ const linkedin = '/images/footer/linkedin.png'
 const Footer=()=>{
     return(
         <>
-        <div className="bg-red-300 py-2">
-            <div className="grid grid-cols-3 ">
+        <div className="bg-gray-400 py-2">
+            <div className="grid grid-cols-1 md:grid-cols-3 ">
 
             <div className="col-span-1 flex flex-col justify-start px-4">
 
                 <Link href={'https://mail.google.com/mail/u/0/?tab=rm#inbox?compose=new'} target="_blank">
-           <div className="font-medium text-base italic">tabassum.anika@gmail.com</div>
+           <div className="font-medium text-base italic flex justify-center items-center">tabassum.anika@gmail.com</div>
            </Link>
            {/* <div>01824....47</div> */}
             </div>

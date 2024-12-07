@@ -1,14 +1,13 @@
 "use client";
 import EducationBackground from "./EducationBackground";
 import EducationDetails from "./EducationDetails";
+import PdfViewer from "./PdfViewer"
 
 
 const Education = () => {
     return (
         <>
           
-          {/* <EducationBackground/>
-          <EducationDetails/> */}
 
 <div className="flex flex-col gap-28">
       {/* Background Section */}
@@ -20,6 +19,10 @@ const Education = () => {
       <div className="w-full">
         <EducationDetails />
       </div>
+
+      <div>
+      {/* <PdfViewer url={"/images/education/cv.pdf"} />     */}
+        </div>
     </div>
           
         </>

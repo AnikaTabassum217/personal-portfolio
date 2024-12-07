@@ -9,7 +9,7 @@ const EducationBackground = () => {
         <>
        
            <MotionBackground src={img} alt="Education Image">
-           <div className="absolute inset-0 flex items-center justify-center text-red-400 text-5xl font-bold font-serif">
+           <div className="absolute inset-0 flex items-center justify-center  text-5xl font-bold font-serif">
              <TextGenerateEffect words="Educational Credentials." />
            </div>
          </MotionBackground>

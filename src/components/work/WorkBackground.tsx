@@ -2,7 +2,7 @@
 import React from "react";
 import { TextGenerateEffect } from "../ui/text-generate-effect";
 import MotionBackground from "../shared/motion-background/MotionBackground";
-const img='/images/work/work.jpg'
+const img='/images/work/work.png'
 
 const WorkBackground = () => {
     return (

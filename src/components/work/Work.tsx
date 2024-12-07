@@ -5,17 +5,9 @@ import WorkDetails from "./WorkDeatils";
 
 const Work = () => {
   return (
-    <>
-      <div>
-        <div>
-          <WorkBackground />
-        </div>
-
-        <div >
-          <WorkDetails />
-        </div>
-      </div>
-
+    <>         
+      <WorkBackground />           
+      <WorkDetails />   
     </>
   )
 }

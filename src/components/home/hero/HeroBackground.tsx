@@ -5,14 +5,14 @@ import React from "react";
 
 import MotionBackground from "@/components/shared/motion-background/MotionBackground";
 
-const img = '/images/hero/hero.jpg'
+const img = '/images/hero/hero.png'
 
 const HeroBackground = () => {
     return (
         <>
           
     <MotionBackground src={img} alt="Hero Image">
-      <div className="absolute inset-0 flex items-center justify-center text-red-400 text-5xl font-bold font-serif">
+      <div className="absolute inset-0 flex items-center justify-center text-white text-5xl font-bold font-serif">
         <TextGenerateEffect words="Web Developer" />
       </div>
     </MotionBackground>
