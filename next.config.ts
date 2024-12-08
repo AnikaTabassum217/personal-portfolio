@@ -35,11 +35,17 @@
 // module.exports = nextConfig;
 
 
-const nextConfig = {
+// Import the NextConfig type
+
+
+import type { NextConfig } from 'next';
+import type { Configuration } from 'webpack';
+
+const nextConfig: NextConfig = {
   images: {
     domains: ["img.freepik.com", "veterinaire-tour-hassan.com"],
   },
-  webpack: (config: any) => {
+  webpack: (config: Configuration) => {
     config.module?.rules?.push({
       test: /\.node/,
       use: "raw-loader",
@@ -48,4 +54,8 @@ const nextConfig = {
   },
 };
 
-module.exports = nextConfig;
+export default nextConfig;
+
+
+
+
