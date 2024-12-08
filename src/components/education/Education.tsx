@@ -1,4 +1,4 @@
-// import PdfViewer from "./PdfViewer";
+import PdfViewer from "./PdfViewer";
 import EducationBackground from "./EducationBackground";
 import EducationDetails from "./EducationDetails";
 
@@ -12,7 +12,7 @@ const Education = () => {
         <EducationDetails />
       </div>
       <div>
-        {/* <PdfViewer url={"/images/education/cv.pdf"} /> */}
+        <PdfViewer url={"/images/education/cv.pdf"} />
       </div>
     </div>
   );
