@@ -50,7 +50,7 @@ const EducationDetails = () => {
             <div className='flex flex-col justify-center items-center gap-2'>
               <p className='text-xl font-serif font-normal'>{info.title}</p>
               <p className='text-lg font-serif font-medium'>{info.name}</p>
-              <p className='text-base font-serif font-semibold'>{info.result}</p>
+              {/* <p className='text-base font-serif font-semibold'>{info.result}</p> */}
             </div>
           </motion.div>
         ))}

@@ -6,7 +6,7 @@ const Rough=()=>{
         <>
         <div className="flex justify-center items-center">Hello Anika </div>
         {
-            fruits.map((fruit:string,index:number)=>{
+            fruits.map((fruit:string)=>{
                 return(
                     <>
                     {

@@ -97,10 +97,10 @@
 "use client";
 
 import { motion } from "framer-motion";
-import Image from "next/image";
+
 import Link from "next/link";
 import React from "react";
-const profileImg = "/images/hero/img1.jpg";
+
 
 const HeroDetails = () => {
   return (
@@ -144,13 +144,13 @@ const HeroDetails = () => {
           >
             <div>
               <div className="flex flex-col justify-center items-center">
-                <Image
+                {/* <Image
                   src={profileImg}
                   alt="profile Image"
                   width={500}
                   height={500}
                   className="h-1/2 w-1/2 rounded-sm"
-                />
+                /> */}
                 <div className="mt-4 font-semibold italic font-serif">
                   Anika Tabassum
                 </div>

@@ -21,7 +21,7 @@ const Education = () => {
       </div>
 
       <div>
-      {/* <PdfViewer url={"/images/education/cv.pdf"} />     */}
+      <PdfViewer url={"/images/education/cv.pdf"} />    
         </div>
     </div>
           
