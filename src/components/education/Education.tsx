@@ -9,7 +9,7 @@ const Education = () => {
         <>
           
 
-<div className="flex flex-col gap-28">
+<div className="flex flex-col ">
       {/* Background Section */}
       <div className="relative w-full h-screen ">
         <EducationBackground />
