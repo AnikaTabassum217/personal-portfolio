@@ -9,7 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "canvas": "^2.11.2",
+    "@napi-rs/canvas": "^0.1.65",
     "clsx": "^2.1.1",
     "framer-motion": "^11.11.17",
     "next": "15.0.3",
