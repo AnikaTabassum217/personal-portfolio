@@ -11,7 +11,7 @@ const linkedin = '/images/footer/linkedin.png'
 const Footer=()=>{
     return(
         <>
-        <div className="bg-gray-400 py-2">
+        <div className="bg-gray-400 py-2 w-full">
             <div className="grid grid-cols-1 md:grid-cols-3 ">
 
             <div className="col-span-1 flex flex-col justify-start px-4">

@@ -33,7 +33,9 @@ export default function RootLayout({
         <div className="mb-10">
         <Navbar/>
         </div>
+        <div>
         {children}
+        </div>
         <div>
           <Footer/>
         </div>

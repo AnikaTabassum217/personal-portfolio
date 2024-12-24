@@ -130,7 +130,7 @@ const HeroDetails = () => {
           ease: "easeInOut",
         }}
       >
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-10 p-10">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-10 p-14 bg-red-200">
           {/* Left Column */}
           <motion.div
             initial={{ opacity: 0, x: -100 }}
@@ -187,7 +187,7 @@ const HeroDetails = () => {
               developer. I am eager to dive into back-end development to expand my
               skills and gain a deeper understanding of server-side technologies,
               databases, and APIs.
-              <br /> <br />
+              <br /> <br /> 
               With a dedication to writing clean, efficient code and delivering
               seamless user experiences, I aim to build impactful digital solutions
               that bridge the gap between front-end and back-end development.
